@@ -4,7 +4,7 @@
 //     let nextrunnerup = Lakers; 
 //     let lastplace = 'bucks';
 
-const { get } = require("jquery");
+const { get, map } = require("jquery");
 
 //     console.log(`Current Champion is: ${current}, last champions ${last} The next runner up is ${nextrunnerup} with last place is ${lastplace}`)
 // }
@@ -311,20 +311,66 @@ const { get } = require("jquery");
 // console.log(`The top earner is ${topEarnerName}`);
    
 
-const phoneBookABC = new Map() //an empty map to begin with
-phoneBookABC.set('Annabelle', '0412312343')
-phoneBookABC.set('Barry', '0433221117')
-phoneBookABC.set('Caroline', '0455221182')
-phoneBookABC.set('Darwin', '0457689413')
-const phoneBookDEF = {}; // initialise an empty object
+// const phoneBookABC = new Map() //an empty map to begin with
+// phoneBookABC.set('Annabelle', '0412312343')
+// phoneBookABC.set('Barry', '0433221117')
+// phoneBookABC.set('Caroline', '0455221182')
+// phoneBookABC.set('Darwin', '0457689413')
+// const phoneBookABC2 = {}; // initialise an empty object
 
-phoneBookABC.forEach(entry => {
-  phoneBookDEF[entry.name] = entry.phoneNumber;
-});
+// phoneBookABC.forEach(entry => {
+//   phoneBookABC2[entry.name] = entry.phoneNumber;
+// });
+// let contacts = new Map();
+// {
+//     {'Annabelle', '0412312343'}
+//     {'Barry', '0433221117'}
+//     {'Caroline', '0455221182'}
+//     {'Darwin', '0457689413'}
+// }
+// // phoneBookABC['Caroline'] = '0475681245'; 
 
-{
-    Annabelle; '0412312343',
-    Barry; '0433221117',
-    Caroline; '0455221182',
-    Darwin; '0457689413'
-}
+// console.log(phoneBookABC);
+
+
+
+// function printPhoneBookABC2(contacts) {
+
+
+//   for (let [name, phoneNumber] of contacts) {
+//     console.log(`${name}: ${phoneNumber}`);
+//   }
+// }
+// printPhoneBookABC2(contacts)
+
+// const phoneBook1 = new Map([
+//   ['Annabelle', '0412312343'],
+//   ['Darwin', '0457689413'],
+ 
+// ]);
+
+// const phoneBook2 = new Map([
+//   ['Caroline', '0455221182'],
+//   ['Barry', '0433221117'],
+  
+// ]);
+
+// const phoneBook = new Map();
+
+// for (const [key, value] of phoneBook1) {
+//   phoneBook.set(key, value);
+// }
+
+// for (const [key, value] of phoneBook2) {
+//   phoneBook.set(key, value);
+// }
+
+// console.log(phoneBook);
+
+const today = new Date();
+
+console.log('Current time is ' + today.toLocaleTimeString())
+console.log(today.getHours() + ' hours have passed so far today')
+console.log(`The total number of minutes that have passed so far today is: ${minutes}`);
+
+const minutes = now.getHours() * 60 + now.getMinutes();
