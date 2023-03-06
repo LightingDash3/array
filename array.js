@@ -4,7 +4,7 @@
 //     let nextrunnerup = Lakers; 
 //     let lastplace = 'bucks';
 
-const { get, map } = require("jquery");
+// const { get, map } = require("jquery");
 
 //     console.log(`Current Champion is: ${current}, last champions ${last} The next runner up is ${nextrunnerup} with last place is ${lastplace}`)
 // }
@@ -367,10 +367,59 @@ const { get, map } = require("jquery");
 
 // console.log(phoneBook);
 
-const today = new Date();
+// const today = new Date();
 
-console.log('Current time is ' + today.toLocaleTimeString())
-console.log(today.getHours() + ' hours have passed so far today')
-console.log(`The total number of minutes that have passed so far today is: ${minutes}`);
 
-const minutes = now.getHours() * 60 + now.getMinutes();
+// console.log('Current time is ' + today.toLocaleTimeString())
+// console.log(today.getHours() + ' hours have passed so far today')
+
+// const now = new Date();
+// const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+// const minutesSinceMidnight = Math.floor((now - midnight) / 6);
+// console.log(minutesSinceMidnight);
+
+// const totalSeconds = Math.floor(Date.now() / 1);
+// console.log(totalSeconds);
+
+
+
+
+
+// const birthDate = new Date('1996-05-27'); 
+// const today2 = new Date();
+
+// let years = today.getFullYear() - birthDate.getFullYear();
+// let months = today.getMonth() - birthDate.getMonth();
+// let days = today.getDate() - birthDate.getDate();
+
+// if (months < 0 || (months === 0 && days < 0)) {
+//   years--;
+//   months += 12;
+// }
+
+// if (days < 0) {
+//   const monthDays = new Date(today.getFullYear(), today.getMonth(), 0).getDate();
+//   days += monthDays;
+//   months--;
+// }
+
+// console.log(`I am ${years} years, ${months} months and ${days} days old.`);
+
+// function daysInBetween(date1, date2) {
+    
+//     const date1Ms = date1.getTime();
+//     const date2Ms = date2.getTime();
+  
+   
+//     const diffMs = Math.abs(date1Ms - date2Ms);
+  
+//     const diffDays = Math.ceil(diffMs / (1000 * 60 * 60 * 24));
+  
+//     return diffDays;
+//   }
+  
+//   const date1 = new Date('1996-05-27');
+// const date2 = new Date('2023-03-03');
+// const day = daysInBetween(date1, date2);
+// console.log(day); 
+
