@@ -179,39 +179,39 @@
 // console.log(multiply(333, 5)); 
 // console.log(multiply(444, 2)); 
 
-class Person {
-    constructor(name, age, gender) {
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
-    }
+// class Person {
+//     constructor(name, age, gender) {
+//         this.name = name;
+//         this.age = age;
+//         this.gender = gender;
+//     }
 
-toString() {
-        return `${this.name} is ${this.age} years old and defines as ${this.gender}.`;
-      }
-}
-function Person(name, age) {
-    this.name = name;
-    this.age = age;
-  }
+// toString() {
+//         return `${this.name} is ${this.age} years old and defines as ${this.gender}.`;
+//       }
+// }
+// function Person(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
   
-  function Student(name, age, sport) {
+//   function Student(name, age, sport) {
     
-    Person.call(this, name, age);
+//     Person.call(this, name, age);
     
     
-    this.sport = sport;
-  }
+//     this.sport = sport;
+//   }
 
-const person1 = new Person('James Brown', 73, 'male')
-   const person2 = new Person('Blake Voge', 28, 'male') 
+// const person1 = new Person('James Brown', 73, 'male')
+//    const person2 = new Person('Blake Voge', 28, 'male') 
     
-    // console.log('person1: '+person1) 
-    // console.log('person2: '+person2)
-    console.log(person1.toString());
-    console.log(person2.toString());
-    console.log(person1);
-    console.log(student1);  
+//     // console.log('person1: '+person1) 
+//     // console.log('person2: '+person2)
+//     console.log(person1.toString());
+//     console.log(person2.toString());
+//     console.log(person1);
+//     console.log(student1);  
     
 
 // class DigitalClock {
